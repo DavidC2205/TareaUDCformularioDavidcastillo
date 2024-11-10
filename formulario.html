@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro - Tienda de Tecnología</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<br><br>
+<div id="contact" class="paddsection">
+<div class="container">
+<div class="contact-block1">
+<div class="row">
+
+<div class="col-lg-6">
+<div class="contact-contact">
+
+<h2 class="mb-30">Contactame!</h2>
+
+<ul class="contact-details">
+<li><span>Colombia</span></li>
+<li><span>Cartagena de Indias</span></li>
+<li><span>+57 3218799879</span></li>
+<li><span>davidcastillo2205@gmail.com</span></li>
+</ul>
+
+</div>
+</div>
+
+<div class="col-lg-6">
+<form action="" method="post" role="form" class="contactForm">
+<div class="row">
+
+<div class="col-lg-6">
+<div class="form-group">
+<input type="text" name="name" class="form-control" id="name" placeholder="Nombre Completo " required data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+</div>
+</div>
+
+<div class="col-lg-6">
+<div class="form-group">
+<input type="email" class="form-control" name="email" id="email" placeholder="Correo" required data-rule="email" data-msg="Please enter a valid email" />
+</div>
+</div>
+
+
+
+<div class="col-lg-12">
+<div class="form-group">
+<input type="text" class="form-control" name="subject" id="subject" required placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+</div>
+</div>
+
+<div class="form-group">
+
+    <select class="form-control" id="pais" name="pais" required>
+        <option value="">De que país me solicita?</option>
+        <option value="mx">México</option>
+        <option value="co">Colombia</option>
+        <option value="ar">Argentina</option>
+        <option value="es">España</option>
+    </select>
+</div>
+
+<legend>De que solicita servicios?</legend>
+
+<div class="form-check">
+    <input type="checkbox" class="form-check-input" id="computadoras" name="producto_interes[]" value="computadoras">
+    <label class="form-check-label" for="computadoras">Soporte tecnico</label>
+</div>
+
+<div class="form-check">
+    <input type="checkbox" class="form-check-input" id="celulares" name="producto_interes[]" value="celulares">
+    <label class="form-check-label" for="celulares">Desarrollo Web</label>
+</div>
+
+<div class="form-check">
+    <input type="checkbox" class="form-check-input" id="accesorios" name="producto_interes[]" value="accesorios">
+    <label class="form-check-label" for="accesorios">Asesoria</label>
+</div>  
+
+
+
+<div class="col-lg-12">
+<div class="form-group">
+<textarea class="form-control" name="message" rows="5" required data-msg="Deja un comentario :)" placeholder="Deja un comentario c: "></textarea>
+</div>
+</div>
+
+
+
+
+
+
+<br>
+
+<div class="col-lg-12">
+    <br>
+<input type="submit" class="btn" value="Enviar">
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>	
+</div>
+
+
+  <!-- start section footer -->
+<div id="footer" class="text-center">
+<div class="container">
+<div class="socials-media text-center">
+
+<ul class="list-unstyled" >
+<li><a href="https://www.facebook.com/LordObesus"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="https://x.com/Herimanto1995"><i class="fab fa-twitter"></i></a></li>
+<li><a href="https://www.instagram.com/wildboard22/"><i class="fab fa-instagram"></i></a></li>
+<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+<li><a href="https://www.youtube.com/@davidcastillo7603"><i class="fab fa-youtube"></i></a></li>
+</ul>
+
+</div>
+
+
+
+<div class="credits" style="color: white;">
+David Enrique</a>
+Castillo Castro</a>
+</div>
+
+</div>
+</div>
+
+
+</body>
+</html>
